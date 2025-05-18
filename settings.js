@@ -1,12 +1,12 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : KANGO-XMD 
-// @author : Hector 
+// @project_name : VIKING-XMD 
+// @author : VIKING 
 // @telegram : http://t.me/official_kango
 // @github : OfficialKango
-// @whatsapp : +233509977126
+// @whatsapp : +50943626477
 
-//----------------------[ KANGO-XMD ]----------------------//
+//----------------------[ VIKING-XMD ]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -16,19 +16,19 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 //--------------------[ SESSION ID ]----------------------//
 
 global.SESSION_ID = process.env.SESSION_ID || '' 
-//Enter your KANGO-XMD session id here; must start with KANGO~
+//KANGO~5jFnkJyT#xkwsEYO_UINnxau54zHmu-_H2YPIfnCNVe9Zd6fayyM
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'KANGO-XMD' 
+global.botname = process.env.BOT_NAME || 'VIKING-XMD' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '50943626477' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['50943626477', '50943626477'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
